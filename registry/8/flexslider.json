@@ -1,0 +1,28 @@
+{
+  "name": "FlexSlider",
+  "type": "asset",
+  "vendor url": "http:\/\/flexslider.woothemes.com",
+  "download url": "https:\/\/github.com\/woocommerce\/FlexSlider\/releases\/latest",
+    "variants": {
+        "minified": {
+            "js": [
+                "jquery.flexslider-min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
+            "flexslider.css"
+        ]
+    },
+    "js": [
+        "jquery.flexslider.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "jquery.flexslider-min.js",
+            "pattern": "\/FlexSlider v([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}
