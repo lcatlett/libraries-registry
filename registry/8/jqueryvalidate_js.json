@@ -1,0 +1,23 @@
+{
+    "type": "asset",
+    "name": "jquery.validate",
+    "vendor url": "https:\/\/github.com\/jquery-validation\/jquery-validation",
+    "download url": "https:\/\/github.com\/jquery-validation\/jquery-validation\/zipball\/master",
+    "variants": {
+        "minified": {
+            "js": [
+                "dist\/jquery.validate.min.js"
+            ]
+        }
+    },
+    "js": [
+        "dist\/jquery.validate.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "dist\/jquery.validate.js",
+            "pattern": "\/validate ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}
